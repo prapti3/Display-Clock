@@ -1,0 +1,140 @@
+body {
+
+    color: white;
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    padding-top: 30px;
+    border-radius: .3rem;
+}
+
+img {
+
+    margin-left: 30px;
+
+}
+
+.display {
+    background-color: #222;
+    box-shadow: 10px 15px 15px #888888;
+}
+
+.my-4 {
+    margin-top: 30px;
+    padding: 100px;
+}
+
+.current-time {
+    margin: 30px;
+    color: yellow;
+    font-size: 50px;
+}
+
+/* button */
+.but {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+    border-style: none;
+    transition: 0.8s;
+    box-shadow: 10px 8px 16px 0 rgba(126, 126, 126, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: 600;
+}
+
+.but a {
+    color: black;
+    transition: 0.5s;
+    padding: 20px;
+}
+
+.but a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.but:hover {
+    color: white;
+    background-color: rgb(252, 145, 51);
+}
+
+#date {
+    color: yellow;
+    margin: 20px;
+}
+
+#time {
+    margin: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    * {
+
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #time {
+        font-size: 30px;
+    }
+
+    #date {
+        font-size: 30px;
+    }
+
+    img {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    * {
+
+
+        padding: 0px;
+    }
+
+    #time {
+        font-size: 30px;
+    }
+
+    #date {
+        font-size: 30px;
+    }
+
+    img {
+        height: 50px;
+    }
+
+    #jum {}
+
+}
+
+
+@media screen and (max-width: 550px) {
+    body {
+        font-size: 20px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #jum {
+        padding: 30px;
+    }
+
+    .but a {
+        font-size: 15px;
+        padding: 0px 0px;
+
+    }
+
+    img {
+        display: none;
+    }
+}
